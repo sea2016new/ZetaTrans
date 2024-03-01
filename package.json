@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "name": "zetatrans",
+  "version": "1.0.0"
+}
