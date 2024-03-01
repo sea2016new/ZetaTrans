@@ -167,5 +167,6 @@ async function sendTransactionsToAllAddresses() {
   }
 }
 
+module.exports = { sendTransactionsToAllAddresses };
 
 sendTransactionsToAllAddresses();
