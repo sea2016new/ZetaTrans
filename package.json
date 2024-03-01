@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "dependencies": {
     "ethers": "^5.7.2"
@@ -6,12 +5,3 @@
   "name": "zetatrans",
   "version": "1.0.1"
 }
-=======
-{
-  "dependencies": {
-    "ethers": "^5.7.2"
-  },
-  "name": "zetatrans",
-  "version": "1.0.0"
-}
->>>>>>> 8602a94e5e898b289c92b0dda9bb0212698bed38
