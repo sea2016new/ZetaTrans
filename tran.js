@@ -1,15 +1,10 @@
 const fs = require('fs');
 
 const { ethers } = require("ethers");
-const { sleep } = require("sleep");
 const { log } = require('console');
 
 // 配置你的私钥
-<<<<<<< HEAD
-const privateKey = "479b5ddfa15ea8362471c69697f764376f8f5d5b85fddd369568ec1a0231f37c"; 
-=======
 const privateKey = "你的私钥"; 
->>>>>>> e56ad198b6d57f0b103636d80218ca9af5af5f0e
 
 // 连接到 Polygon 节点
 const provider = new ethers.providers.JsonRpcProvider("https://zetachain-mainnet-archive.allthatnode.com:8545"); 
@@ -18,12 +13,7 @@ const provider = new ethers.providers.JsonRpcProvider("https://zetachain-mainnet
 const wallet = new ethers.Wallet(privateKey, provider);
 
 // 从文件中读取目标地址列表
-<<<<<<< HEAD
-const toAddresses = fs.readFileSync('address.txt', 'utf8').trim().split('\n');
-=======
 const toAddresses = fs.readFileSync('记录你的转帐地址的文件', 'utf8').trim().split('\n');
->>>>>>> e56ad198b6d57f0b103636d80218ca9af5af5f0e
-
 async function getCurrentNonce(wallet) {
   try {
     const nonce = await wallet.getTransactionCount("pending");
